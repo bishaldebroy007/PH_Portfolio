@@ -1,0 +1,9 @@
+/* Common shared Text styles */
+body {
+    font-family: 'Lato', sans-serif;
+    font-family: 'open sans', sans-serif;
+}
+/* Nav styles */
+nav {
+    display: flex;
+}
