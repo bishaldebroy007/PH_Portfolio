@@ -67,28 +67,32 @@ nav a {
 /* Header style */
 .header-class {
     background-color: #fff8f3;
-    background-image: url('../images/header_bg.png');
+
 }
 
 .banner {
-    padding: 5px 30px 30px 150px;
+    /* background-image: url('../images/header_bg.png');
+    background-repeat: no-repeat;
+    background-position: bottom right; */
+
+    padding: 20px 20px 20px 150px;
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 
 .banner .profile-pic {
-    width: 500px;
+    width: 450px;
 }
 
 .banner-greetings {
-    font-size: 45px;
+    font-size: 35px;
     color: #474747;
     margin-bottom: 0;
 }
 
 .banner-title {
-    font-size: 85px;
+    font-size: 55px;
     font-weight: 700;
     margin-top: 5px;
     margin-bottom: 20px;
@@ -100,7 +104,10 @@ nav a {
 }
 
 /* Main Section styles */
-
+main {
+    max-width: 1140px;
+    margin: 0 auto;
+}
 
 /* About Section Styles */
 .about {
@@ -109,3 +116,16 @@ nav a {
     background: #FFF8F3;
     margin: 130px 0;
 }
+
+.about-info-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 0 0 35px;
+}
+
+.about-info {
+    text-align: center;
+}
+
+/* 5-4 last video */
