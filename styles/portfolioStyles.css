@@ -19,13 +19,21 @@ nav {
 
 .primary-button {
     color: white;
-    background: red;
+    background: brown;
     border-radius: 5px;
     border: 0;
     font-size: 20px;
     font-style: normal;
     font-weight: 700;
     padding: 15px 35px;
+    gap: 20px;
+}
+
+.primary-button:hover {
+    background: red;
+    /* Shadow on hover */
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
 }
 
 .section-title {
@@ -233,11 +241,18 @@ textarea {
 
 #submit-button {
     color: white;
-    background: red;
+    background: brown;
     border-radius: 5px;
     border: 0;
     font-size: 20px;
     font-style: normal;
     font-weight: 700;
     padding: 15px 35px;
+}
+
+#submit-button:hover {
+    background: red;
+    /* Shadow on hover */
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
 }
