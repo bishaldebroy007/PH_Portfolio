@@ -192,6 +192,41 @@ main section {
 }
 
 .download-cv {
-    margin-top: 50px;
+    margin: 100px;
     text-align: center;
+}
+
+/* Footer Style */
+footer {
+    display: flex;
+    background: #FFF8F3;
+    padding: 130px 200px;
+
+}
+
+.footer-column {
+    width: 50%;
+    gap: 100px;
+}
+
+#footer-description {
+    text-align: left;
+}
+
+.social-links a {
+    margin-right: 25px;
+
+}
+
+.contact input[type="text"],
+.contact input[type="email"],
+textarea {
+    display: block;
+    margin-bottom: 25px;
+    border: none;
+    padding: 18px 35px;
+    color: #757575;
+    background: #FFF;
+    border-radius: 5px;
+    width: 100%;
 }
