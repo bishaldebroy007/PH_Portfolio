@@ -20,7 +20,7 @@ nav {
 .primary-button {
     color: white;
     background: brown;
-    border-radius: 5px;
+    border-radius: 15px;
     border: 0;
     font-size: 20px;
     font-style: normal;
@@ -223,7 +223,12 @@ footer {
 
 .social-links a {
     margin-right: 25px;
+}
 
+.social-links a:hover {
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+    border-radius: 15px;
+    cursor: pointer;
 }
 
 .contact input[type="text"],
@@ -242,7 +247,7 @@ textarea {
 #submit-button {
     color: white;
     background: brown;
-    border-radius: 5px;
+    border-radius: 15px;
     border: 0;
     font-size: 20px;
     font-style: normal;
@@ -256,3 +261,11 @@ textarea {
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
     cursor: pointer;
 }
+
+/* Copyright section */
+/* #copyright {
+    text-align: center;
+    padding: 20px;
+    background: #FFF8F3;
+    color: #757575;
+} */
